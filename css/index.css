@@ -1,0 +1,97 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* Encabezado */
+header {
+  background-color: #87CEEB;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  transform: color 0.3s ease;
+  transform: 0.3s ease;
+}
+
+nav a:hover {
+   color: #e6ddbb;
+   font-size: 1.2em;
+}
+
+/* Secciones principales */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+ 
+}
+
+h2 {
+  color: #004080;
+  border-bottom: 2px solid #004080;
+  padding-bottom: 5px;
+}
+
+/* Artículos de estadísticas */
+article {
+  background-color: #e6f0ff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+article h3, article p {
+  color:#000000;
+  transition: color 0.3s ease;
+}
+article:hover h3, article:hover p {
+  color: #004080;
+}
+
+/* Lista de novedades */
+section ul {
+  background-color: #fff;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+
+  padding-left: 30px;
+}
+
+section ul li {
+  margin: 8px 0;
+}
+
+/* Pie de página */
+footer {
+  background-color: #6bb1f7;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
