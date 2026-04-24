@@ -1,0 +1,111 @@
+/* Estilo general*/
+body {
+  background-color: #f4f4f9;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* Encabezado */
+header {
+  background-color: #87ceeb;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #e6ddbb;
+  font-size: 1.2em;
+}
+
+/*Seccion Principal*/
+aside h2 {
+  text-align: center;
+}
+
+th,
+td {
+  border: 1px solid black;
+  width: 100vw;
+  background-color: aquamarine;
+}
+
+select {
+  background-color: aquamarine;
+  width: 250px;
+}
+select:hover {
+  cursor: pointer;
+  background-color: #87ceeb;
+}
+
+.presentacion {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  justify-content: center;
+  padding: 25px;
+  gap: 45px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.proyecto {
+  display: block;
+  text-align: center;
+  flex-direction: column;
+  background-color: rgb(17, 227, 171);
+  border-width: 7px 9px;
+  border-style: solid;
+  border-color: rgba(255, 1, 1, 0.088);
+  padding: 10px;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.proyecto:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: #87ceeb;
+  cursor: pointer;
+}
+
+.proyecto img {
+  object-fit: cover;
+  border-radius: 10%;
+  transition: transform 0.3s;
+}
+
+h3 {
+  text-align: center;
+}
+
+/* Pie de página */
+footer {
+  background-color: #6bb1f7;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
